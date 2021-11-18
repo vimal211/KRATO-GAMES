@@ -1,0 +1,55 @@
+.navbar__Container {
+  background-color: #161334;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  /* position: fixed; */
+}
+.navbar h2 {
+  padding-left: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+.navbar h2 span {
+  color: #f01b1b;
+}
+.right {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  /* width: 10%; */
+}
+.profile {
+  display: flex;
+  padding: 0 30px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.right img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name h3 {
+  font-weight: 500;
+  font-size: medium;
+}
+.name p {
+  font-size: small;
+  color: hsla(0, 0%, 100%, 0.8);
+}
+
+.right p {
+  color: hsla(0, 0%, 100%, 0.8);
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.main_Container {
+  width: 100%;
+  display: flex;
+}
+
+.main {
+  background-color: #222e56;
+  display: flex;
+  justify-content: center;
+  width: 93%;
+}
