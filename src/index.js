@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
+import { DataProvider } from "./Context/DataContext.jsx";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <DataProvider>
     <App />
-  </React.StrictMode>,
+  </DataProvider>,
   document.getElementById("root")
 );
 

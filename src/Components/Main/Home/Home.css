@@ -16,10 +16,40 @@
   object-fit: cover;
 }
 
-.popular_Container {
+.section_Container {
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
+  margin-top: 30px;
   color: #ffffff;
   font-size: 20px;
+}
+.section_Container p {
+  letter-spacing: 2px;
+  font-size: larger;
+}
+.slide {
+  cursor: pointer;
+}
+.slide_img {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.781);
+}
+.slide_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+.game_rating {
+  margin-right: 35px;
+  color: rgba(224, 195, 26, 0.856);
+  font-weight: 500;
+  font-size: medium;
+}
+.game_name {
+  font-size: medium;
+  color: rgb(199, 197, 194);
+  font-weight: 500;
 }
